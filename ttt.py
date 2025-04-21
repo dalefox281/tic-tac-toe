@@ -16,7 +16,6 @@ def new_board(board):
 
 def render_board(board):
     for item in board:
-<<<<<<< HEAD
         print(item)
 
 def main():
@@ -26,10 +25,6 @@ def main():
     input(print("Choose a side; X's or O's"))
     
     print(render_board(new_board()))
-=======
-        pprint.pprint(item)
-        
->>>>>>> a5ececff632659bb2e59b9e851e648281f76cd24
 
 if __name__ == "__main__":
     board = []
