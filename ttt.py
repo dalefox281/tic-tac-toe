@@ -11,6 +11,10 @@ def render_board(board):
 
 def main():
     board = []
+    player = str('')
+    print("Welcome to tic-tac-toe!")
+    input(print("Choose a side; X's or O's"))
+    
     print(render_board(new_board()))
 
 if __name__ == "__main__":
